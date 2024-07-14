@@ -1,0 +1,32 @@
+GET http://localhost:8086/Profile/
+
+
+###
+
+POST http://localhost:8086/Profile/
+Content-Type: application/json
+
+{
+    
+    "fullName":"gayathri",
+    "email":"gaya@gmail.com",
+    "dob":"15/2/24",
+    "contact":9089900,
+    "appId":1
+    
+}
+
+
+####
+POST http://localhost:8086/Profile/
+Content-Type: application/json
+
+{
+    
+    "fullName":"manchu",
+    "email":"manchu23@gmail.com",
+    "dob":"5/12/24",
+    "contact":9789000,
+    "appId":3
+    
+}

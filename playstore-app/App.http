@@ -1,0 +1,75 @@
+GET http://localhost:8085/App/1
+
+
+#####
+
+
+###
+
+POST http://localhost:8085/App/
+Content-Type: application/json
+
+{
+   
+   "appName":"UBER",
+   "appVendor":"Gokul",
+   "downloadCount":4,
+   "ratings":3.7
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####
+POST http://localhost:8085/Ecart/
+Content-Type: application/json
+
+{
+   "receiverName":"selvi",
+   "receiverContact":12334,
+   "receiverAddress":"from salem",
+   "itemPrice":8906,
+   "itemStatus":"received",
+   "executiveName":"guru",
+   "executiveId":1
+
+}
+
+###
+
+DELETE http://localhost:8085/Ecart/1
+
+###
+
+PUT http://localhost:8085/patient/
+Content-Type: application/json
+
+{
+    "patientId": 918,
+    "patientName": "Baasha",
+    "age": 20,
+    "bloodGroup": "O+",
+    "address": "SAlem",
+    "contact": 9876565523,
+    "issue": "Fever"
+}
